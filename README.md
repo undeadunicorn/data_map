@@ -1,5 +1,8 @@
 # DataMap
 
+Give default data and easy access to WeakMaps.
+Also make WeakMap works with strings.
+
 
 ## Install
 
