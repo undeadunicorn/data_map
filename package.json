@@ -1,0 +1,19 @@
+{
+  "name": "burst_data_map",
+  "version": "0.0.1",
+  "main": "data_map.js",
+  "description": "ES6 Map / WeakMap library",
+  "homepage": "https://github.com/hugeen/data_map",
+  "author": "",
+  "engines": {
+    "node": ">= 0.12.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hugeen/data_map.git"
+  },
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/hugeen/data_map/issues"
+  }
+}
