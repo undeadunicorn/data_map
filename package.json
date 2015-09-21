@@ -1,19 +1,19 @@
 {
   "name": "burst_data_map",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "main": "data_map.js",
   "description": "ES6 Map / WeakMap library",
-  "homepage": "https://github.com/hugeen/data_map",
+  "homepage": "https://github.com/undeadunicorn/data_map",
   "author": "",
   "engines": {
-    "node": ">= 0.12.0"
+    "node": ">= 4.1.0"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/hugeen/data_map.git"
+    "url": "git+https://github.com/undeadunicorn/data_map.git"
   },
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/hugeen/data_map/issues"
+    "url": "https://github.com/undeadunicorn/data_map/issues"
   }
 }
