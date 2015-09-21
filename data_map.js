@@ -2,7 +2,7 @@ var defaultDataMap = createMap({weak: true})
 var namespacesMap = createMap({weak: true, => {}})
 
 
-function createMap (options = {weak: false}) {
+export function createMap (options = {weak: false}) {
     let map = options.weak ? new WeakMap() : new Map()
     if ('defaultData' in options) {
         defaultDataMap.set(map, options.defaultData())
@@ -11,7 +11,7 @@ function createMap (options = {weak: false}) {
 }
 
 
-function dataFor (map, object) {
+export function dataFor (map, object) {
 
     if (typeof object === 'string' && map instanceof WeakMap) {
         let namespaces = dataFor(namespacesMap, map)
