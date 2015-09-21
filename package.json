@@ -1,6 +1,6 @@
 {
   "name": "burst_data_map",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "main": "data_map.js",
   "description": "ES6 Map / WeakMap library",
   "homepage": "https://github.com/undeadunicorn/data_map",
